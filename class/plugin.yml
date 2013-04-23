@@ -1,0 +1,17 @@
+name: L3375p34k
+main: com.hybris.bukkit.l3375p34k.L3375p34k
+version: 1.3
+website: 
+author: Hybris95
+description: 
+             Allow authorized users to change their language in L3375p34k and understand other L3375p34k3rs
+commands:
+    l5:
+        description: To use L3375p34k functionnalities if Operator
+        usage: /l5 or /l5 list
+    leet:
+        description: To use L3375p34k functionnalities if Operator
+        usage: /leet or /leet list
+    l337:
+        description: To use L3375p34k functionnalities if Operator
+        usage: /l337 or /l337 list
