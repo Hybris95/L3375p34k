@@ -1,2 +1,5 @@
 #!/bin/bash
-javac -cp "./class;./jars/craftbukkit.jar" -d "./class" "./src/com/hybris/bukkit/l3375p34k/*.java"
+javac -Xlint:deprecation -cp "./class:./jars/craftbukkit.jar" -d "./class" "./src/com/hybris/bukkit/l3375p34k/L3375p34k.java" "./src/com/hybris/bukkit/l3375p34k/L3375p34kExecutor.java"
+cd ./class
+jar cvf "L3375p34k.jar" ./plugin.yml ./com/
+mv L3375p34k.jar ../jars/

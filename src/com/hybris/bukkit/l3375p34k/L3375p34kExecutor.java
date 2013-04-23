@@ -10,7 +10,7 @@ import org.bukkit.entity.HumanEntity;
 import org.bukkit.event.Listener;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
-import org.bukkit.event.player.PlayerChatEvent;
+import org.bukkit.event.player.AsyncPlayerChatEvent;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -54,7 +54,7 @@ class L3375p34kExecutor implements CommandExecutor, Listener{
 	}
 	
 	@EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
-	public void onStdSpeak(PlayerChatEvent e)
+	public void onStdSpeak(AsyncPlayerChatEvent e)
 	{
 		// Check if the sender is a leet
 		Player sender = e.getPlayer();
