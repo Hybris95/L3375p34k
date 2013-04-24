@@ -1,6 +1,7 @@
 /*
     L3375p34k - The plugin for CraftBukkit that allows you to talk in Leet
     Copyright (C) 2013  Hybris95
+    hybris_95@hotmail.com
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
